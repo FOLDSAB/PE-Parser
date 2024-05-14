@@ -35,7 +35,10 @@ int main(int argv, char *argc[]) {
         printf("Error Parsing Dos Header\n");
         goto END;
     }
-    ParseSectionHeaders(hfile, Ntheaderoffset, noofsections);
+    if (!ParseSectionHeaders(hfile, Ntheaderoffset, noofsections)) {
+        printf("Error Parsing Dos Header");
+        goto END;
+    }
 
     END:
         printf("Press enter to exit");
