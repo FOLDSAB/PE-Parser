@@ -39,5 +39,8 @@ pe_parser example.exe
 - This tool provides insights into the DOS headers, NT headers, section headers, and data directory entries of the PE file.
 - It's designed for educational, analysis, and debugging purposes.
 
+
+I believe there are better ways to do what I done here. I'm not a C specialist, so I know there's room to improve this code. I'd love to hear your ideas and feedback. 
+Don't hesitate to reach out to me. Thanks!
 ---
 
